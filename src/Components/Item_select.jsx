@@ -44,6 +44,8 @@ function Item_select() {
       const queryParams = displayedFields.join(",");
       console.log(queryParams);
       navigate(`/show_list?fields=${queryParams}`);
+    } else {
+      alert("please select some attribute");
     }
   };
 
@@ -53,16 +55,7 @@ function Item_select() {
         <h2>Available Fields</h2>
         <ul>
           {availableFields.map((field) => (
-            <li
-              key={field}
-              onClick={() => handleToggleSelection(field)}
-              style={{
-                cursor: "pointer",
-                backgroundColor: field.selected ? "#e0e0e0" : "inherit",
-              }}
-            >
-              {field}
-            </li>
+            <li key={field}>{field}</li>
           ))}
         </ul>
       </div>

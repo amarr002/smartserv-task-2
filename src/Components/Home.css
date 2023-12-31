@@ -1,38 +1,40 @@
 .main {
-    display: flex;
-    flex-direction: column;
-    border: 2px solid black;
-    height: 100%;
-    width: 750px;
-    padding: 20px;
-  }
-  .main2 {
-    border: 2px solid black;
-    height: 350px;
-    width: 690px;
-    padding: 20px;
-    display: flex;
-  }
-  .main3 {
-    border: 2px solid black;
-    height: 300px;
-    width: 340px;
-    display: flex;
-    padding: 5px;
-  }
-  .main3_1 {
-    text-align: left;
-    /* border: 2px solid black; */
-    width: 100px;
-    padding-top: 10px;
-  }
-  .main3_2 {
-    border: 2px solid black;
-    width: 240px;
-    padding-top: 10px;
-    padding-left: 10px;
-  }
-  label {
-    padding-right: 10px;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+.main2 {
+  border: 2px solid black;
+  height: 350px;
+  width: 800px;
+  padding: 20px;
+  display: flex;
+  margin-left: 80px;
+  background-color: aliceblue;
+}
+.main3 {
+  border: 2px solid black;
+  height: 300px;
+  /* width: 600px; */
+  display: flex;
+  padding: 5px;
+  margin-left: 20px;
+}
+.main3_1 {
+  text-align: left;
+  /* border: 2px solid black; */
+  width: 100px;
+  padding-top: 10px;
+}
+.main3_2 {
+  /* border: 2px solid black; */
+  width: 240px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+label {
+  padding-right: 10px;
+}
